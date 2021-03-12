@@ -1,0 +1,156 @@
+/* GENERAL RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100%;
+    margin-right: 30%;
+    background-color: #FDF5E4;
+  }
+  
+  .row {
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* HEADER */
+  header {
+    width: 70%;
+    margin-right: 30%;
+    height: 20%;
+    position: relative;
+    background-color: #FDBB40;
+  }
+  
+  header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 60px;
+  }
+  
+  #burger-img {
+    position: absolute;
+    right: -80px;
+    top: -30px;
+    height: 250px;
+    width: auto;
+  }
+  
+  /*MAIN */
+  main {
+    width: 70%;
+    margin-right: 30%;
+    overflow-y: scroll;
+    height: 70%;
+    background-color: white;
+  }
+  
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  ul img {
+    width: 60px;
+    height: auto;
+    margin-right: 25px;
+  }
+  
+  ul li {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    font-size:20px;
+    padding: 25px 0;
+  }
+  
+  ul button {
+    background-color: transparent;
+    border:none;
+    font-size:20px;
+    color: #BC3B59;
+  }
+  
+/* spacing checkboxes */
+  ul input {
+    margin: 0 25px;
+    filter: hue-rotate(1deg);
+    transform: scale(1.2);
+    pointer-events: none;
+  }
+  
+  #name-burg {
+    height: 60px;
+    width: 300px;
+    border: none;
+    font-size: 35px;
+    padding: 60px 0;
+    outline: none;
+  }
+
+  .coupon-section label {
+    font-size: 20px;
+  }
+  
+  #coupon {
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    height: 30px;
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 20px;
+    background-color: #FDF5E4;
+  }
+  
+  .calculate-section {
+    text-align: center;
+  }
+  
+/* calculate button */
+  #calculate {
+    margin: 20px 0;
+    padding: 16px 38px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #FDBB40;
+  }
+  
+  #calculate:hover {
+    background-color: #BC3B59;
+    color:#FDBB40;
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    width: 70%;
+    margin-right: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 35px;
+    color: white;
+    background-color: #BC3B59;
+  }
+  
+  footer .row {
+    display: flex;
+    justify-content: space-around;
+  }
